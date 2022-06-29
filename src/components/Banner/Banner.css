@@ -17,4 +17,7 @@
     .banner__img {
         display: none ;
     }
+    .header {
+        width: 100vw;
+    }
 }
