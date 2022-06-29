@@ -1,0 +1,22 @@
+.mainHeader {
+    text-align: center;
+}
+.skills {
+    background-color: #1f2235;
+    padding: 100px ;
+}
+.progress-bar-danger {
+    background-color: #ee3f4a;
+}
+
+.skill_text, span {
+    color: #ffffff;
+}
+ 
+small {
+    float: right;
+}
+
+.progress {
+    margin-bottom: 18px;
+}

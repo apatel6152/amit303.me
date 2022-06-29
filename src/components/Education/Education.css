@@ -1,0 +1,47 @@
+.Education {
+    padding: 100px;
+}
+h4{
+    color:#4a4843;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top:2px;
+}
+
+.title {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+ 
+#p {
+    color: white;
+}
+
+.card-body ul {
+    margin: 0px 0px 16px;
+    padding: 0px 0px 0px 40px;
+}
+
+.bg-primary {
+    background-color: #00334D !important;
+}
+
+.cc-education .cc-education-header {
+    /* padding-top: 60px; */
+    padding: 40px;
+    /* padding-right: 0; */
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 767px) { 
+    .row {
+        margin-left: 14px;
+        width: 100%;
+    }
+
+    .bg-primary {
+        margin-left: -15px;
+    }
+    
+}

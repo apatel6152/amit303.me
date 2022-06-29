@@ -1,0 +1,44 @@
+
+  a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+   a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    /* background-color: #78b476; */
+    color: white;
+  }
+
+  .navbar__right {
+    padding-left: 500px;
+    /* display: inline; */
+
+  }
+  
+  @media screen and (max-width: 1028px) {
+   
+    .navbar__right {
+      padding-left: 0px;
+    }
+   
+  }
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 768px) {
+   
+    .navbar__right {
+      padding-left: 0px;
+    }
+   
+  }
+  

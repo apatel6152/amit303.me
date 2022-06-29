@@ -1,0 +1,16 @@
+.about__img {
+    background-image: url('../../../public/images/dp.png');
+    width: auto;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+    .about__img {
+        display: block;
+        background-size: contain;
+    }
+    .about__info {
+        width: 100%;
+    }
+  }

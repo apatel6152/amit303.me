@@ -1,0 +1,14 @@
+.image {
+    background-image: url('../../../public/images/dp.png');
+    padding-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #123344;
+}
+.big {
+    color: white;
+}
+.contact-section {
+    background-color: #1f2235;
+    padding: 100px;
+}
