@@ -9,12 +9,17 @@
 .footer {
     background-color: black;
     padding: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;   
     text-align: center;
 }
 
 @media (max-width: 767px) { 
     .footer_text {
       width: fit-content;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 30px;
     }
 }

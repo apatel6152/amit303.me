@@ -20,3 +20,9 @@ small {
 .progress {
     margin-bottom: 18px;
 }
+
+@media (max-width: 767px) { 
+    .skills {
+        padding: 30px ;
+    }
+}
