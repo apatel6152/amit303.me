@@ -78,7 +78,7 @@ const About = () => {
 		          	
                 <h3 className="hii">Hi There,</h3>
                 <div className="about__info-p">
-                  <p>I'm Amit Patel. I Completed my Bachelor in Computer Engineering from Aditya Silver Oak Institute Of Technology, India with 8.75 CGPA and Currently I am pursuing web design and development at conestoga college in kitchenr,canada.
+                  <p>I'm Amit Patel. I Completed my Bachelor in Computer Engineering from Aditya Silver Oak Institute Of Technology, India with 8.75 CGPA and Currently I am pursuing Web design and development at Conestoga college in Kitchenr,Canada.
                   </p>
                  </div>
                  </div>
@@ -96,8 +96,12 @@ const About = () => {
 		        </div>
 	          <div className="counter-wrap ftco-animate d-flex mt-md-3">
               <div className="text">
-              	
-                <p><a href="/#contact" className="btn btn-primary py-3 px-3">Hire Me</a></p>
+              <div className="header__buttons">
+                  <a href="/#contact" className="btn btn-outline">
+                    Hire Me
+                  </a>
+                </div>
+                {/* <p><a href="/#contact" className="btn btn-primary py-3 px-3">Hire Me</a></p> */}
               </div>
 	          </div>
 	        </div>

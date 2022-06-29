@@ -1,4 +1,5 @@
 .image {
+    display: block;
     background-image: url('../../../public/images/dp.png');
     padding-right: 5px;
     background-repeat: no-repeat;
@@ -22,8 +23,12 @@
 }
 
 @media (max-width: 767px) { 
+    .image {
+        visibility:hidden;
+    }
     .big {
         padding-bottom: 0px;
+        text-align: center;
     }
     .contact-section {
         padding: 30px;

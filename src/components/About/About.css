@@ -74,8 +74,13 @@ h1.mainHeader {
         padding: 0;
         padding-right: 15px;
     }
-
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        
+    }
     .about_info-details  {
         font-size: 90%;
+        /* display: block; */
     }
   }
