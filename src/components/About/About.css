@@ -57,7 +57,9 @@ h1.mainHeader {
         background-size: contain;
         padding: 0;
         height: 50vh;
-        /* padding-right: 20px; */
+
+        /* padding-bottom: 40px; */
+        /* padding-right: 70px; */
     }
 
     h1.mainHeader {
@@ -79,6 +81,9 @@ h1.mainHeader {
         flex-direction: column;
         width: 100vw;
         
+    }
+    .about__info {
+        padding-top: 30px;
     }
     .about_info-details  {
         font-size: 90%;

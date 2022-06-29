@@ -64,8 +64,8 @@ const About = () => {
           </div>
         </div>
     		<div className="row d-flex">
-    			<div className="col-md-6 col-lg-5 d-flex">
-    				<div className="about__img img-about img d-flex align-items-stretch">
+    			<div className="col-md-6 col-lg-5 ">
+    				<div className="about__img img-about img  align-items-stretch">
     					<div className="overlay"></div>
 	    				<div className="img d-flex align-self-stretch align-items-center" >
 	    				</div>
