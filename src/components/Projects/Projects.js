@@ -8,6 +8,10 @@ const Projects = () => {
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading ">Projects</h2>
+                    <div className="common">
+      
+                      <div className="commonBorder"></div>
+                    </div>
                 </div>
                 <ul className="timeline">
                     <li>

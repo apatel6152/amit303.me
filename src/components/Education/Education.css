@@ -10,7 +10,7 @@ h4{
 
 .title {
     font-size: 36px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
  
 #p {
@@ -40,6 +40,9 @@ h4{
         width: 100%;
     }
 
+    .title {
+        padding-bottom: 0;
+    }
     .bg-primary {
         margin-left: -15px;
     }
@@ -48,6 +51,7 @@ h4{
         padding: 50px;
         padding-left: 30px;
         padding-right: 30px;
+        padding-bottom: 0;
     }
     
 }

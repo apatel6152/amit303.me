@@ -10,6 +10,9 @@ const Skills = () => {
 				<div className="row justify-content-center pb-5">
           <div className="col-md-12 heading-section text-center ftco-animate">
           	<h1 className="mainHeader">Skills</h1>
+            <div className="common">
+              <div className="commonBorder"></div>
+            </div>
           </div>
         </div>
 				<div className="row skills_animate">

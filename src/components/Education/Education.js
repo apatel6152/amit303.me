@@ -7,6 +7,10 @@ const Education = () => {
             <div className="section" id="education">
             <div className="container cc-education">
               <div className="h4 text-center mb-4 title">Education</div>
+              <div className="common">
+      
+              <div className="commonBorder"></div>
+            </div>
               <div className="card">
                 <div className="row">
                   <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>

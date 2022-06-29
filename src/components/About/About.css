@@ -1,16 +1,81 @@
 .about__img {
     background-image: url('../../../public/images/dp.png');
-    width: auto;
-    height: 700px;
+    width: 100%;
+    height: 500px;
+    background-position: center;
     background-repeat: no-repeat;
 }
+.ftco-about ul.about-info li span:first-child {
+    font-weight: 600;
+    color: #ff4a57;
+    width: 130px;
+}
 
+.d-flex {
+    padding-bottom: 10px;
+}
+
+/* .btn {
+    background-color: #ff4a57;
+} */
+
+.ftco-about ul.about-info li span {
+    width: calc(100% - 130px);
+}
+
+h1.mainHeader {
+    /* padding-bottom: 20px; */
+    font-size: 40px;
+}
+
+.heading-section {
+    padding-bottom: 20PX;
+}
+
+.about_info-details {
+    padding-top: 50px;
+}
+
+
+
+/* .commonBorder {
+    color: brown;
+} */
+
+/* .hii {
+    color: white;
+} */
 @media (max-width: 767px) {
+    .about {
+        padding: 50px;
+    }
+    .d-flex {
+        overflow: hidden;
+    }
     .about__img {
         display: block;
         background-size: contain;
+        padding: 0;
+        height: 50vh;
+        /* padding-right: 20px; */
     }
-    .about__info {
+
+    h1.mainHeader {
+        padding-bottom: 0px;
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .about_heading {
+        padding: 0;
+    }
+    .heading-section, .about_info-details {
         width: 100%;
+        padding: 0;
+        padding-right: 15px;
+    }
+
+    .about_info-details  {
+        font-size: 90%;
     }
   }

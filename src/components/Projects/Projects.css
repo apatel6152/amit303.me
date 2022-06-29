@@ -14,9 +14,7 @@
   margin-left: auto;
 }
 
-.section-heading {
-  padding-bottom: 50px;
-}
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -86,6 +84,7 @@ p {
   position: relative;
   padding: 0;
   list-style: none;
+  padding-top: 30px;
 }
 .timeline:before {
   position: absolute;
