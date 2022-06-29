@@ -24,7 +24,8 @@ small {
 @media (max-width: 767px) { 
     .skills {
         padding: 50px ;
-        padding-left: 15px;
+        padding-left: 20px;
+        padding-right: 30px;
     }
 
     .skills_animate {

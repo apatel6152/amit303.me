@@ -388,9 +388,10 @@ body {
   display: none;
 }
 @media (max-width: 765px) {
-  /* * {
-    width: 100%;
-  } */
+  .navbar {
+    width: 100vw;
+  }
+  
   .container {
     width: 100%;
     padding: 0 50px;
