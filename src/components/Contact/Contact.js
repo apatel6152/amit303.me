@@ -4,13 +4,13 @@ import './Contact.css';
 const Contact = () => {
   
   return (
-    <section className=" contact-section ftco-no-pb" id="contact">
-      <div className="container">
-      	<div className="row justify-content-center mb-5 pb-3">
-          <div className="col-md-7 heading-section text-center ftco-animate">
+    <section className="contact-section ftco-no-pb" id="contact">
+      <div className="container container_contacts">
+      	{/* <div className="row justify-content-center mb-5 pb-3 "> */}
+          <div className="col-md-12 heading-section text-center ftco-animate">
             <h1 className="big big-2">Get In Touch</h1>
           </div>
-        </div>
+        {/* </div> */}
 
         <div className="row no-gutters block-9">
           <div className="col-md-5 d-flex image"></div>

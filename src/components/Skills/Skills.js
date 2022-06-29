@@ -12,7 +12,7 @@ const Skills = () => {
           	<h1 className="mainHeader">Skills</h1>
           </div>
         </div>
-				<div className="row">
+				<div className="row skills_animate">
 					<div className="col-md-6 animate-box">
 						<div className="progress-wrap ftco-animate">
 							<h4 className='skill_text'>HTML5</h4>
