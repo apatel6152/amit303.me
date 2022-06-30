@@ -5,7 +5,7 @@ import './Nav.css';
 
 const Nav = () => {
 
-  const [state, setState] = useState(true);
+  const [state, setState] = useState(false);
   return (
     <nav className="navbar">
       <div className="container">
