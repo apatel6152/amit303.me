@@ -78,19 +78,18 @@ const About = () => {
 		          	
                 <h3 className="hii">Hi There,</h3>
                 <div className="about__info-p">
-                  <p>I'm Amit Patel. I Completed my Bachelor in Computer Engineering from Aditya Silver Oak Institute Of Technology, India with 8.75 CGPA and Currently I am pursuing Web design and development at Conestoga college in Kitchenr,Canada.
+                  <p>I'm Amit Patel. Currently I am pursuing Web design and development at Conestoga college in Kitchenr, Canada. And I'm interested in Fullstack developmet. So currently, I'm  working on the web development technologies like JavaScript, React, next.js, Firebase, MongoDB, Angular etc.
                   </p>
                  </div>
                  </div>
-		            {/* <h2 className="mb-4">About Me</h2>
-		            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> */}
+		      
 		            <ul className="about-info mt-4 px-md-0 px-2">
 		            	<li className="d-flex"><span>Name:</span> <span>Amit Patel</span></li>
 		            	<li className="d-flex"><span>Date of birth:</span> <span>March 30, 1998</span></li>
 		            	<li className="d-flex"><span>Address:</span> <span>Fairway Station, kitchener, Ontario</span></li>
 		            	<li className="d-flex"><span>Zip code:</span> <span>N2C3G5</span></li>
 		            	<li className="d-flex"><span>Email:</span> <span>apatel6152@conestogac.on.ca</span></li>
-		            	<li className="d-flex"><span>Phone: </span> <span>+1-223-567-932</span></li>
+		            	<li className="d-flex"><span>Phone: </span> <span>+1-223-567-9322</span></li>
 		            </ul>
 		          </div>
 		        </div>
@@ -101,7 +100,7 @@ const About = () => {
                     Hire Me
                   </a>
                 </div>
-                {/* <p><a href="/#contact" className="btn btn-primary py-3 px-3">Hire Me</a></p> */}
+              
               </div>
 	          </div>
 	        </div>
