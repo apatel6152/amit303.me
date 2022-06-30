@@ -60,7 +60,9 @@ body {
   height: 100px;
   position: fixed;
   top: 0;
-  background: #1f2235;
+  background: #1f2235 ;
+  opacity: 0.9;
+  
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
@@ -86,6 +88,11 @@ body {
   font-size: 18px;
   padding: 0 15px;
 }
+
+.navbar__right li a:hover {
+  background-color: rgba(88, 156, 190, 0.78);
+}
+
 
 /* Helpers */
 .container {
