@@ -47,8 +47,8 @@ const Banner = () => {
                 <h1>{intro.title}</h1>
                 <p>{intro.text}</p>
                 <div className="header__buttons">
-                  <a href="/" className="btn btn-outline">
-                    Download CV
+                  <a href="/resume.pdf" className="btn btn-outline" target="_blank">
+                    Download Resume
                   </a>
                 </div>
               </div>
