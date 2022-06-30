@@ -11,16 +11,13 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className="footer" id="footer">
-      {/* <div className="container"> */}
-        {/* <div className="contactSection"> */}
+
           <div className="row justifyCenter">
             <div className="col-12">
             
-              {/* <div className="col-md-12 text-center"> */}
                 <p className="footer_text">
                     Copyright ©2022 All rights reserved | This Portfolio is made with <FaHeart /> by <strong>Amit Patel</strong>
                 </p>
-              {/* </div> */}
               <ul className="contactCircles">
                   <li>
                     <a href='https://www.facebook.com/people/Amit-Patel/100005975611113/'>
@@ -46,7 +43,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      // </div>
     
   );
 };
